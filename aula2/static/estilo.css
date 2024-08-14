@@ -1,0 +1,21 @@
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        font-family: Roboto;
+        font-weight: normal;
+        color: rgb(80, 80, 200);
+        }
+
+     h2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: Roboto;
+        font-weight: normal;
+        color: rgb(100, 100, 255);
+        }
+
+     #banner{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        }

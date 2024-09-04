@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SISTEMA WEB</title>
+</head>
+<body>
+<h1 style="text-align: center"> Adicionando dados em lista </h1>
+<hr>
+<ol>
+    {% for chave,valor in notas.items(): %}
+        <details>
+          <summary>{{chave}}</summary>
+          <p>{{valor}}</p>
+        </details>
+    {% endfor %}
+</ol>
+</body>
+</html>

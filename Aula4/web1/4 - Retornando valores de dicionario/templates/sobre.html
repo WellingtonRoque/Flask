@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SISTEMA WEB</title>
+</head>
+<body>
+<h1> Retornando valores de dicionario </h1>
+<hr>
+<ol>
+    {% for chave,valor in notas.items(): %}
+        <details>
+          <summary>{{chave}}</summary>
+          <p>{{valor}}</p>
+        </details>
+    {% endfor %}
+</ol>
+</body>
+</html>

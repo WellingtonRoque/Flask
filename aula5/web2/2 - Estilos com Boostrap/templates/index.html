@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h1> Templates com Boostrap </h1>
+<hr>
+<ol>
+    {% for fruta in frutas: %}
+        <li>{{fruta}}</li>
+    {% endfor %}
+    <form action="{{url_for('principal')}}" method="POST">
+        <label>FRUTAS</label>
+        <input type="text" name="fruta">
+        <button>Adicionar</button>
+    </form>
+</ol>
+{% endblock conteudo %}
+

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<title>SISTEMA WEB</title>
+<h1 style="text-align: center"> Templates com Boostrap </h1>
+<hr>
+    {% for registro in registros: %}
+        <details>
+          <summary>{{registro.aluno}}</summary>
+          <p>{{registro.nota}}</p>
+        </details>
+    {% endfor %}
+    <form action="{{url_for('sobre')}}" method="POST">
+        <div class="form-group">
+            <label>Aluno</label>
+            <input type="text" name="aluno" class="form-control" placeholder="Digite o nome do aluno ex: Joaquim" required>
+        </div>
+        <div class="form-group">
+            <label>Nota</label>
+            <input type="text" name="nota" class="form-control" placeholder="Digite uma nota ex: 10" required>
+        </div>
+        <button class="btn btn-success">Adicionar</button>
+    </form>
+{% endblock conteudo %}
+
+
+

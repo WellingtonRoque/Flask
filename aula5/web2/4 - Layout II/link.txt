@@ -1,0 +1,2 @@
+Collapse boostrap
+https://getbootstrap.com/docs/5.0/components/collapse/

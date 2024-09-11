@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<title>SISTEMA WEB</title>
+<h1> Templates com Boostrap </h1>
+<hr>
+<ul class="list-group">
+    {% for fruta in frutas %}
+        <li class="list-group-item">{{fruta}}</li>
+    {% endfor %}
+    <form action="{{url_for('principal')}}" method="POST">
+        <div>
+            <label for="exemploFruta">FRUTAS</label>
+            <input class="form-control"  id="exemploFruta" type="text" name="fruta" placeholder="Digite o nome de uma fruta ex: manga">
+        </div>
+        <button class="btn btn-primary">Adicionar</button>
+    </form>
+</ul>
+{% endblock conteudo %}
+

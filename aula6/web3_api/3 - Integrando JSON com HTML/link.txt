@@ -1,0 +1,12 @@
+Exemplo API utilizada
+https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&api_key=f7a2e2bbcd3d5aa26450826691511060
+
+Cards · Bootstrap v5.0
+https://getbootstrap.com/docs/5.0/components/card/
+
+Badges - Documentation and examples for badges, our small count and labeling component.
+https://getbootstrap.com/docs/5.0/components/badge/
+
+
+backdrop_path	"/9l1eZiJHmhr5jIlthMdJN5WYoff.jpg"
+http://image.tmdb.org/t/p/w500/9l1eZiJHmhr5jIlthMdJN5WYoff.jpg

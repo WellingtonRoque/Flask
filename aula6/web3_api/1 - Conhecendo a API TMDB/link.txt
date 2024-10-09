@@ -1,0 +1,23 @@
+The Movie Database
+https://www.themoviedb.org/
+
+Exemplo de Requisção de API
+https://developer.themoviedb.org/docs/finding-data
+
+Filmes
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc' \
+     --header 'accept: application/json'
+
+API do Wellington
+&api_key=f7a2e2bbcd3d5aa26450826691511060
+
+Trabalhando com Imagens
+https://developer.themoviedb.org/docs/image-basics
+
+Buscando Imagens
+backdrop_path	"/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg"
+https://image.tmdb.org/t/p/w500/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg
+
+
+http://image.tmdb.org/t/p/w500/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg

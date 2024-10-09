@@ -1,0 +1,19 @@
+API Reference - The Movie Database API
+https://developer.themoviedb.org/reference/intro/getting-started
+
+API - Mais Polulares
+- Filmes + Populares
+- Filmes Kids
+- Filmes 2010
+- Filmes Drama
+- Tom Cruise
+
+https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=f7a2e2bbcd3d5aa26450826691511060
+
+https://api.themoviedb.org/3/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc&api_key=f7a2e2bbcd3d5aa26450826691511060
+
+https://api.themoviedb.org/3/discover/movie?primary_release_year=2010&sort_by=vote_average.desc&api_key=f7a2e2bbcd3d5aa26450826691511060
+
+https://api.themoviedb.org/3/discover/movie?with_genres=18&sort_by=vote_average.desc&vote_count.gte=10&api_key=f7a2e2bbcd3d5aa26450826691511060
+
+https://api.themoviedb.org/3/discover/movie?with_genres=878&with_cast=500&sort_by=vote_average.desc&api_key=f7a2e2bbcd3d5aa26450826691511060
